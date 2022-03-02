@@ -40,6 +40,14 @@ System.out.print("Enter the limit: ");
 //reads the limit from the user  
 num=sc.nextInt();  
 System.out.println("Armstrong Number up to "+ num + " are: ");  
+
+#feature300 changes done by mahender
+
+public static void main(String args[])     
+{     
+int num;   
+Scanner sc= new Scanner(System.in);  
+System.out.print("Enter the limit: ");  
 for(int i=0; i<=num; i++)  
 //function calling  
 if(isArmstrong(i))  
